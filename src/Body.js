@@ -7,11 +7,13 @@ export default Body;
 // Library import to randomize colors
 const color = require('randomcolor');
 
+// Setting component Body that will use the library to set a random color as background color
 function Body() {
   const [randomColor, setRandomColor] = useState('grey');
   const [hue, setHue] = useState('random');
   const [luminosity, setLuminosity] = useState('random');
 
+  // Referring to App.css - onClick will call the useState 'setRandomColor' with random luminosity and hue
   return (
     <body className="App-body" style={{ backgroundColor: randomColor }}>
       <button
@@ -25,14 +27,14 @@ function Body() {
           );
         }}
       >
-        Go Bananas{' '}
+        I wanna go Bananas!{' '}
         <span role="img" aria-label="banana">
           🍌
         </span>
       </button>
 
       <div>
-        Care for some hue?
+        <b>Care for some hue?</b>
         <p />
         <select
           className="hueDropdown"
@@ -51,7 +53,7 @@ function Body() {
       </div>
 
       <div>
-        Pick your luminosity!
+        <b>Pick your luminosity!</b>
         <p />
         <select
           className="luminosityDropdown"
