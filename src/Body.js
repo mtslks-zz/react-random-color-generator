@@ -35,7 +35,7 @@ function Body() {
         Care for some hue?
         <p />
         <select
-          className="hueList"
+          className="hueDropdown"
           value={hue}
           onChange={(event) => setHue(event.target.value)}
         >
@@ -54,7 +54,7 @@ function Body() {
         Pick your luminosity!
         <p />
         <select
-          className="luminosityList"
+          className="luminosityDropdown"
           value={luminosity}
           onChange={(event) => setLuminosity(event.target.value)}
         >

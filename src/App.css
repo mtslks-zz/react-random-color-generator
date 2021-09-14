@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+/* This will rotate the banana logo infitely for 3 seconds per rotation */
 .App-logo {
   animation: App-logo-spin infinite 3s linear;
   height: 20vmin;
@@ -16,6 +17,7 @@
   }
 }
 
+/* CSS properties of Header.js*/
 .App-header {
   background-color: #c1aa296f;
   min-height: 30vh;
@@ -36,10 +38,13 @@
   border-radius: 10px;
 }
 
+/* CSS properties of Body.js*/
 .App-body {
   min-height: 10vh;
   vertical-align: middle;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   margin: 0 auto;
   padding: 20px;
   padding-top: 20px;
@@ -52,6 +57,7 @@
   border-radius: 10px;
 }
 
+/* CSS properties of "Go Bananas" button */
 .randomizeColorButton {
   background-color: rgba(255, 255, 255, 0.612);
   height: 80px;
@@ -62,7 +68,8 @@
   border-color: white;
 }
 
-.hueList {
+/* CSS properties of Hue picker */
+.hueDropdown {
   height: 40px;
   width: 150px;
   border-radius: 8px;
@@ -71,7 +78,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.luminosityList {
+.luminosityDropdown {
   height: 40px;
   width: 150px;
   border-radius: 8px;
