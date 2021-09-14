@@ -7,8 +7,8 @@ export default function Header() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="rotating bananas" />
         <h1 className="App-headline">Randomize til you go bananas!</h1>
+        <img src={logo} className="App-logo" alt="rotating bananas" />
       </header>
     </div>
   );
