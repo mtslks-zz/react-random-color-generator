@@ -38,3 +38,5 @@ In addition to randomly generating the hex code, the user can additionally defin
 The app was built within Visual Code Studio using React.js and CSS styling (`App.css`).
 
 After finalization it was deployed at https://ml-react-color-generator.netlify.app/.
+
+A sandboxed version can be accessed at https://codesandbox.io/s/react-random-color-generator-hd48p.
