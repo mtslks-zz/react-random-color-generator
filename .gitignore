@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintcache
-.ReactReadme.md
+ReactReadme.md
+package-lock.json
