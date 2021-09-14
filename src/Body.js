@@ -1,11 +1,11 @@
 import './App.css';
-import styled from '@emotion/styled'; // CSS-in-JS API
-import { refState, useState } from 'react';
+// import styled from '@emotion/styled'; // CSS-in-JS API
+import { useState } from 'react';
 
 export default Body;
 
 // Library import to randomize colors
-let color = require('randomcolor');
+const color = require('randomcolor');
 
 function Body() {
   const [randomColor, setRandomColor] = useState('grey');
@@ -25,7 +25,10 @@ function Body() {
           );
         }}
       >
-        Go Bananas!!!
+        Go Bananas{' '}
+        <span role="img" aria-label="banana">
+          🍌
+        </span>
       </button>
 
       <div>
