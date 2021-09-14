@@ -17,3 +17,15 @@ Below sketch highlights the draft process of the application. It was sketched in
 ![Figma draft handsketched](./react-random-color-generator-figma.png)
 
 ## Stage 2: React components used
+
+
+## Stage 3: Component interaction
+
+## Stage 4: Identifying unknowns
+
+## Stage 5: Building app
+
+The app was built within Visual Code Studio using React.js and CSS styling (`app.css`).
+After finalisation it was deployed at https://ml-react-color-generator.netlify.app/.
+
+#
