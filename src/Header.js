@@ -1,6 +1,4 @@
 import './App.css';
-// import styled from '@emotion/styled'; // CSS-in-JS API
-// import { useState } from 'react';
 import logo from './bananas.svg';
 
 // Header including rotating image of bananas and headline
