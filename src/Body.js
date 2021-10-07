@@ -2,9 +2,6 @@ import './App.css';
 import color from 'randomcolor';
 import { useState } from 'react';
 
-// Library import to randomize colors
-// const color = require('randomcolor');
-
 // Setting component Body that will use the library to set a random color as background color
 function Body() {
   const [randomColor, setRandomColor] = useState('grey');
